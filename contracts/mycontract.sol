@@ -556,8 +556,8 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     ) internal virtual {}
 }
 
-contract MOTA is ERC20,Ownable,Pausable {
-    constructor () ERC20("MOTAMONEY", "MOTA") {
+contract MyToken is ERC20,Ownable,Pausable {
+    constructor () ERC20("MyToken", "MTN") {
     }
     
     function _beforeTokenTransfer(
