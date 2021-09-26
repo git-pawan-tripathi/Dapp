@@ -6,6 +6,7 @@ To run this project run all this commands
 
 npm install
 
+yarn start
 nom hardhat node
 
 npx hardhat compile
